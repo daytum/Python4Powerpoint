@@ -1,0 +1,22 @@
+gas:
+  differential: -0.24
+  price: 2.5
+  shrink: 0.18
+oil:
+  differential: -3.81
+  price: 50.0
+NGL:
+  price: 17.5
+  yield: 106
+opex:
+  fixed: 6264
+  gas: 0.83
+  oil: 2.64
+taxes:
+  ad valorem: 0.025
+  severence:
+    gas/NGL: 0.075
+    oil: 0.046
+working interest: 1.0
+capex: 3600000
+net revenue interest: 0.75

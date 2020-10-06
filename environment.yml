@@ -1,0 +1,21 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - intake=0.5.5
+  - intake-sql
+  - ipywidgets=7.5.1
+  - jupyterlab=2.1.2
+  - matplotlib=3.2.1
+  - notebook=6.0.3
+  - numpy=1.18.4
+  - pandas=1.0.3
+  - pip=20.1.1
+  - python=3.7.6
+  - python-pptx=0.6.18
+  - pyyaml=5.1.2
+  - scipy=1.4.1
+  - pip:
+    - daytum-data==0.2.5
+    - pd2ppt==0.1.0
