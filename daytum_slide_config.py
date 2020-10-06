@@ -1,7 +1,7 @@
 # `my_slide_config.py` 
 c.TagRemovePreprocessor.remove_input_tags.add("hide")
 c.SlidesExporter.reveal_theme="simple"
-c.SlidesExporter.reveal_url_prefix="/"
+c.SlidesExporter.reveal_url_prefix="reveal.js"
 
 # the following does the equivalent of --to slides and --post serve, see here: https://github.com/jupyter/nbconvert/blob/master/setup.py#L220 + https://github.com/jupyter/nbconvert/blob/master/nbconvert/nbconvertapp.py#L482 and here https://github.com/jupyter/nbconvert/blob/master/nbconvert/nbconvertapp.py#L238
 app_settings = {
